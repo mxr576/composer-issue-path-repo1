@@ -10,6 +10,11 @@
     },
     "repositories": [
         {
+            "type": "path",
+            "url": "web/themes/custom/*",
+            "canonical": false
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
@@ -18,7 +23,8 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
-        "drupal/core-recommended": "^9.5"
+        "drupal/core-recommended": "^9.5",
+        "su-sws/stanford_basic": "8.5.19"
     },
     "conflict": {
         "drupal/drupal": "*"
